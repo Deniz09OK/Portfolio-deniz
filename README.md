@@ -13,7 +13,7 @@ CSS : Pour le style et la mise en page.
 
 🛠 Installation
 Clonez le dépôt :
-git clone https://github.com/Deniz09OK/Projet-portfolio-Deniz-.git
+git clone https://github.com/Deniz09OK/Portfolio-deniz.git
 Accédez au dossier du projet :
 cd Projet-portfolio-Deniz-
 Installez les dépendances :
