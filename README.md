@@ -15,7 +15,7 @@ CSS : Pour le style et la mise en page.
 Clonez le dépôt :
 git clone https://github.com/Deniz09OK/Portfolio-deniz.git
 Accédez au dossier du projet :
-cd Projet-portfolio-Deniz-
+cd Portfolio-deniz
 Installez les dépendances :
 npm install
 Lancez le projet en mode développement :
