@@ -10,7 +10,6 @@ import {
 const wikiLinks = {
   // Systèmes d'exploitation
   'Linux': 'https://fr.wikipedia.org/wiki/Linux',
-
   'Windows': 'https://fr.wikipedia.org/wiki/Microsoft_Windows',
   'OpenBSD': 'https://fr.wikipedia.org/wiki/OpenBSD',
   'FreeBSD': 'https://fr.wikipedia.org/wiki/FreeBSD',
@@ -103,7 +102,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="space-y-6 bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl">
+            <div className="space-y-6 bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl">   
               <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
                 <BookOpen className="w-6 h-6 mr-2 text-red-600" />
                 À propos
