@@ -21,9 +21,9 @@ export const Hero = () => {
                 Portfolio
               </a>
               <a 
-                href="/CV Deniz OK Recherche D'alternance (18).pdf" 
+                href="/CV_Deniz_OK.pdf" 
                 download 
-                className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-all duration-300 transform hover:scale-105 flex items-center"
+                className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 transform hover:scale-105 flex items-center shadow-md"
               >
                 <FileDown className="w-5 h-5 mr-2" />
                 Télécharger CV

@@ -32,7 +32,15 @@ export const skillsData = {
       { name: 'React.js', wikiLink: 'https://fr.wikipedia.org/wiki/React', icon: FileCode },
       { name: 'Bootstrap', wikiLink: 'https://fr.wikipedia.org/wiki/Bootstrap_(framework)', icon: FileCode },
       { name: 'Tailwind CSS', wikiLink: 'https://fr.wikipedia.org/wiki/Tailwind_CSS', icon: FileCode },
-      { name: 'Symfony', wikiLink: 'https://fr.wikipedia.org/wiki/Symfony', icon: FileCode }
+      { name: 'Symfony', wikiLink: 'https://fr.wikipedia.org/wiki/Symfony', icon: FileCode },
+      { name: 'Cisco Packet Tracer', wikiLink: 'https://fr.wikipedia.org/wiki/Cisco_Packet_Tracer', icon: Network },
+      { name: 'PuTTY', wikiLink: 'https://fr.wikipedia.org/wiki/PuTTY', icon: Monitor },
+      { name: 'VirtualBox', wikiLink: 'https://fr.wikipedia.org/wiki/Oracle_VM_VirtualBox', icon: Monitor },
+      { name: 'Arduino', wikiLink: 'https://fr.wikipedia.org/wiki/Arduino', icon: Cpu },
+      { name: 'Processing', wikiLink: 'https://fr.wikipedia.org/wiki/Processing', icon: FileCode },
+      { name: 'Visual Studio', wikiLink: 'https://fr.wikipedia.org/wiki/Microsoft_Visual_Studio', icon: FileCode },
+      { name: 'Visual Studio Code', wikiLink: 'https://fr.wikipedia.org/wiki/Visual_Studio_Code', icon: FileCode },
+      { name: 'IntelliJ IDEA', wikiLink: 'https://fr.wikipedia.org/wiki/IntelliJ_IDEA', icon: FileCode }
     ]
   },
   'Bases de données': {
