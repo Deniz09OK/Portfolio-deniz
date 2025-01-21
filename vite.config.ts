@@ -1,20 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { createHtmlPlugin } from 'vite-plugin-html';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    createHtmlPlugin({
-      inject: {
-        data: {
-          title: 'Portfolio de Deniz',
-        },
-      },
-    }),
-  ],
-  base: './',
+  plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
