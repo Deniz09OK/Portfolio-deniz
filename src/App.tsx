@@ -3,6 +3,7 @@ import { Hero } from './components/Hero/Hero';
 import { Education } from './components/Education/Education';
 import { Experience } from './components/Experience/Experience';
 import { Skills } from './components/Skills/Skills';
+import { Interests } from './components/Interests/Interests';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Languages } from './components/Languages/Languages';
 import { Footer } from './components/Footer/Footer';
@@ -14,6 +15,7 @@ function App() {
       <Education />
       <Experience />
       <Skills />
+      <Interests />
       <Portfolio />
       <Languages />
       <Footer />
