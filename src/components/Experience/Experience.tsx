@@ -24,6 +24,8 @@ export const Experience = () => {
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Développement de compétences essentielles en discipline et travail d'équipe</li>
               <li>Participation à des missions variées et enrichissantes</li>
+              <li>Obtention du certificat de Sauveteur Secouriste du Travail (SST)</li>
+              <li>Décoré de la médaille du mérite</li>
             </ul>
           </div>
           <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
@@ -32,6 +34,20 @@ export const Experience = () => {
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Installation de nouveaux ordinateurs dans une salle informatique</li>
               <li>Création d'adresses IP pour les étudiants en BTS</li>
+            </ul>
+          </div>
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
+            <p className="text-gray-600 mb-2">Lycée Henri Loritz, Nancy | 04/2019-05/2019</p>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <li>Assistance informatique pour le personnel et les étudiants</li>
+            </ul>
+          </div>
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
+            <p className="text-gray-600 mb-2">Lycée Henri Loritz, Nancy | 01/2019-02/2019</p>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <li>Assistance informatique pour le personnel et les étudiants</li>
             </ul>
           </div>
         </div>

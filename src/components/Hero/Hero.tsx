@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown } from 'lucide-react';
+import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
   return (
@@ -10,7 +10,15 @@ export const Hero = () => {
           <div className="text-center md:text-left">
             <Monitor className="w-16 h-16 mx-auto md:mx-0 mb-6 text-red-600 animate-bounce" />
             <h1 className="hero-title text-5xl font-bold mb-4 text-gray-800 font-['Noto_Serif_JP']">Deniz OK</h1>
-            <p className="hero-subtitle text-xl text-gray-600 mb-8">Développeur Full Stack</p>
+            <p className="hero-subtitle text-xl text-gray-600 mb-4">Développeur Full Stack</p>
+            <div className="flex justify-center md:justify-start space-x-4 mb-8">
+              <a href="https://github.com/Deniz09OK" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
+                <Github className="w-6 h-6 icon-spin" />
+              </a>
+              <a href="https://www.linkedin.com/in/deniz-ok" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
+                <Linkedin className="w-6 h-6 icon-spin" />
+              </a>
+            </div>
             <div className="hero-buttons flex flex-wrap justify-center md:justify-start gap-4">
               <a href="mailto:deniz.ok@epitech.eu" className="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-all duration-300 transform hover:scale-105 flex items-center">
                 <Mail className="w-5 h-5 mr-2" />

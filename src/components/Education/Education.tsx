@@ -27,6 +27,14 @@ export const Education = () => {
               <li>Virtualisation (Mageia)</li>
             </ul>
           </div>
+          <div className="education-card bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">Bac Professionnel SNIR (Systèmes Numériques - Informatique et Réseaux)</h3>
+            <p className="text-gray-600 mb-2">Lycée Jean Prouvé, Nancy | 09/2017-07/2020</p>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <li>Administration Réseau (VLAN, LAN, Routeur, Commutateur, IPv4, Sous-réseaux)</li>
+              <li>Virtualisation (Debian)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
