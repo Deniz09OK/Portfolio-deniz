@@ -37,7 +37,7 @@ export const Interests = () => {
             </p>
             <ul className="mt-2 space-y-1 text-gray-700">
               <li>• Rap : Future, Kendrick Lamar, Freeze Corleone</li>
-              <li>• Rock : Linkin Park</li>
+              <li>• Rock : Linkin Park, Imagine Dragons</li>
               <li>• J-pop : Flow, Ado, Creepy Nuts, SiM, Survive Said The Prophet, MAN WITH A MISSION</li>
             </ul>
           </div>

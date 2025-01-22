@@ -13,7 +13,7 @@ export const Footer = () => {
             <Linkedin className="w-6 h-6 icon-spin" />
           </a>
         </div>
-        <p className="text-center text-gray-400">© 2024 Deniz OK. Tous droits réservés.</p>
+        <p className="text-center text-gray-400">© 2024 Deniz OK</p>
       </div>
     </footer>
   );
