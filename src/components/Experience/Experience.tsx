@@ -38,6 +38,13 @@ export const Experience = () => {
           </div>
           <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
+            <p className="text-gray-600 mb-2">Sciences Po, Nancy | 09/2019-10/2019</p>
+            <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <li>Assistance informatique pour le personnel et les étudiants</li>
+            </ul>
+          </div>
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
             <p className="text-gray-600 mb-2">Lycée Henri Loritz, Nancy | 04/2019-05/2019</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Assistance informatique pour le personnel et les étudiants</li>
