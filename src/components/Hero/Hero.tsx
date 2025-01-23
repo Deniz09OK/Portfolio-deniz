@@ -1,4 +1,3 @@
-import React from 'react';
 import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
@@ -12,10 +11,10 @@ export const Hero = () => {
             <h1 className="hero-title text-5xl font-bold mb-4 text-gray-800 font-['Noto_Serif_JP']">Deniz OK</h1>
             <p className="hero-subtitle text-xl text-gray-600 mb-4">Développeur Full Stack</p>
             <div className="flex justify-center md:justify-start space-x-4 mb-8">
-              <a href="https://github.com/Deniz09OK" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
+              <a href="https://github.com/Deniz09OK" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300" title="GitHub Profile">
                 <Github className="w-6 h-6 icon-spin" />
               </a>
-              <a href="https://www.linkedin.com/in/deniz-ok" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/deniz-ok" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300" title="LinkedIn Profile">
                 <Linkedin className="w-6 h-6 icon-spin" />
               </a>
             </div>
