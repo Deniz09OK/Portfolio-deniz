@@ -1,3 +1,4 @@
+import React from 'react';
 import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
@@ -11,10 +12,10 @@ export const Hero = () => {
             <h1 className="hero-title text-5xl font-bold mb-4 text-gray-800 font-['Noto_Serif_JP']">Deniz OK</h1>
             <p className="hero-subtitle text-xl text-gray-600 mb-4">Développeur Full Stack</p>
             <div className="flex justify-center md:justify-start space-x-4 mb-8">
-              <a href="https://github.com/Deniz09OK" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300" title="GitHub Profile">
+              <a href="https://github.com/Deniz09OK" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
                 <Github className="w-6 h-6 icon-spin" />
               </a>
-              <a href="https://www.linkedin.com/in/deniz-ok" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300" title="LinkedIn Profile">
+              <a href="https://www.linkedin.com/in/deniz-ok" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors duration-300">
                 <Linkedin className="w-6 h-6 icon-spin" />
               </a>
             </div>
@@ -27,14 +28,13 @@ export const Hero = () => {
                 <Scroll className="w-5 h-5 mr-2 animate-bounce" />
                 Portfolio
               </a>
-              <a 
-                href="/CV Deniz OK Recherche D'alternance (19).pdf" 
-                download 
+              <button 
+                onClick={() => window.open('https://drive.google.com/uc?export=download&id=1VWNeNjS4yNRPuAAOuHXCG_vBuIe7vG4X', '_blank')}
                 className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 transform hover:scale-105 flex items-center shadow-md"
               >
                 <FileDown className="w-5 h-5 mr-2" />
                 Télécharger CV
-              </a>
+              </button>
             </div>
           </div>
           <div className="space-y-6 bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl">
