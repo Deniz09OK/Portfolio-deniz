@@ -21,7 +21,8 @@ export const skillsData = {
       { name: 'PHP', wikiLink: 'https://fr.wikipedia.org/wiki/PHP', icon: FileCode },
       { name: 'Python', wikiLink: 'https://fr.wikipedia.org/wiki/Python_(langage)', icon: FileCode },
       { name: 'Java', wikiLink: 'https://fr.wikipedia.org/wiki/Java_(langage)', icon: FileCode },
-      { name: 'JavaScript', wikiLink: 'https://fr.wikipedia.org/wiki/JavaScript', icon: FileCode }
+      { name: 'JavaScript', wikiLink: 'https://fr.wikipedia.org/wiki/JavaScript', icon: FileCode },
+      { name: 'TypeScript', wikiLink: 'https://fr.wikipedia.org/wiki/TypeScript', icon: FileCode }
     ]
   },
   'Frameworks & Outils': {

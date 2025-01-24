@@ -47,7 +47,7 @@ export const Hero = () => {
             </p>
             <div className="flex items-center text-gray-700">
               <MapPin className="w-5 h-5 mr-2 text-red-600" />
-              Jarville-la-Malgrange, France
+              Nancy, France
             </div>
           </div>
         </div>
