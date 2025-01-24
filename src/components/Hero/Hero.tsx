@@ -28,7 +28,7 @@ export const Hero = () => {
                 Portfolio
               </a>
               <a 
-                href="/CV_Deniz_OK.pdf" 
+                href="/CV Deniz OK Recherche D'alternance (19).pdf" 
                 download 
                 className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 transform hover:scale-105 flex items-center shadow-md"
               >
