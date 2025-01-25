@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from './components/Navbar/Navbar';
 import { Hero } from './components/Hero/Hero';
 import { Education } from './components/Education/Education';
 import { Experience } from './components/Experience/Experience';
@@ -8,9 +9,10 @@ import { Portfolio } from './components/Portfolio/Portfolio';
 import { Languages } from './components/Languages/Languages';
 import { Footer } from './components/Footer/Footer';
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-red-50 to-white">
+      <Navbar />
       <Hero />
       <Education />
       <Experience />
@@ -22,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

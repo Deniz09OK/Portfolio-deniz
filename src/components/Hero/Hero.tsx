@@ -3,7 +3,7 @@ import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } f
 
 export const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center">
+    <div id="about" className="relative min-h-screen flex items-center justify-center">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558862107-d49ef2a04d72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-10"></div>
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">

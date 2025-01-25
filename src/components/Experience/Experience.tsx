@@ -10,7 +10,7 @@ export const Experience = () => {
           Expérience Professionnelle
         </h2>
         <div className="space-y-8">
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Equipier polyvalent</h3>
             <p className="text-gray-600 mb-2">Burger King, Vandoeuvre-lès-Nancy | 01/2024-03/2024</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -18,7 +18,7 @@ export const Experience = () => {
               <li>Service client : Accueil chaleureux, prise de commande rapide et précise</li>
             </ul>
           </div>
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Volontaire Stagiaire</h3>
             <p className="text-gray-600 mb-2">1er régiment du service militaire volontaire, Montigny-Lès-Metz | 03/2023-12/2023</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -28,7 +28,7 @@ export const Experience = () => {
               <li>Décoré de la médaille du mérite</li>
             </ul>
           </div>
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Installation et mise en service d'une salle informatique (Stage)</h3>
             <p className="text-gray-600 mb-2">Charles de Foucauld Nancy | 05/2021-07/2021</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -36,21 +36,21 @@ export const Experience = () => {
               <li>Création d'adresses IP pour les étudiants en BTS</li>
             </ul>
           </div>
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
             <p className="text-gray-600 mb-2">Sciences Po, Nancy | 09/2019-10/2019</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Assistance informatique pour le personnel et les étudiants</li>
             </ul>
           </div>
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
             <p className="text-gray-600 mb-2">Lycée Henri Loritz, Nancy | 04/2019-05/2019</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Assistance informatique pour le personnel et les étudiants</li>
             </ul>
           </div>
-          <div className="experience-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Assistant en Maintenance et Déploiement Informatique (Stage)</h3>
             <p className="text-gray-600 mb-2">Lycée Henri Loritz, Nancy | 01/2019-02/2019</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">

@@ -10,7 +10,7 @@ export const Education = () => {
           Formation
         </h2>
         <div className="space-y-8">
-          <div className="education-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="education-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Programme MSc Pro (En Cours)</h3>
             <p className="text-gray-600 mb-2">Epitech Nancy | 09/2024-07/2027</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -18,7 +18,7 @@ export const Education = () => {
               <li>Virtualisation (Debian, OpenBSD, FreeBSD)</li>
             </ul>
           </div>
-          <div className="education-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="education-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">BTS SNIR (Systèmes Numériques - Informatique et Réseaux)</h3>
             <p className="text-gray-600 mb-2">Charles de Foucauld, Nancy | 09/2020-07/2022</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
@@ -27,7 +27,7 @@ export const Education = () => {
               <li>Virtualisation (Mageia)</li>
             </ul>
           </div>
-          <div className="education-card bg-white p-6 rounded-lg shadow-lg">
+          <div className="education-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Bac Professionnel SNIR (Systèmes Numériques - Informatique et Réseaux)</h3>
             <p className="text-gray-600 mb-2">Lycée Jean Prouvé, Nancy | 09/2017-07/2020</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">

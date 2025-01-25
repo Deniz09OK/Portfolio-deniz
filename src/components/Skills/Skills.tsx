@@ -1,5 +1,5 @@
 import React from 'react';
-import { Settings, Monitor, FileCode, Database, Network, Server, Wrench, Cpu } from 'lucide-react';
+import { Settings } from 'lucide-react';
 import { skillsData } from '../../data/skillsData';
 
 export const Skills = () => {
