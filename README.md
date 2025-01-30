@@ -3,7 +3,7 @@ Projet Portfolio Deniz
 Ce projet est un portfolio personnel construit avec React et Vite. Il sert de vitrine pour présenter mes travaux, mes compétences et mon parcours professionnel.
 
 ⚡ Aperçu                                                           
-Démo en ligne : https://portfolio-deniz.netlify.app/
+Démo en ligne : www.portfolio-ok.com
 
 🔧 Technologies Utilisées                                           
 React : Librairie JavaScript pour construire l'interface utilisateur.                                   
