@@ -19,15 +19,7 @@ cd Portfolio-deniz
 Installez les dépendances :                                    
 npm install                                                  
 Lancez le projet en mode développement :                                      
-npm run dev                                                             
-
-🌐 Déploiement                                                              
-Ce projet est déployé sur Netlify.                                                      
-Processus de déploiement :                                                          
-Construisez le projet :                                                       
-npm run build                                                                     
-Le dossier dist sera généré. Ce dossier contient les fichiers prêts pour le déploiement.                                          
-Déployez le dossier dist sur Netlify ou toute autre plateforme d'hébergement statique.                                                          
+npm run dev                                                                                                                      
 
 🎨 Fonctionnalités                                                      
 Présentation d'un portfolio moderne et réactif.                                                                 
