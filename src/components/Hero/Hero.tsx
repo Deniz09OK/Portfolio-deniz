@@ -29,7 +29,7 @@ export const Hero = () => {
                 Portfolio
               </a>
               <button 
-                onClick={() => window.open('https://drive.google.com/uc?export=download&id=1VWNeNjS4yNRPuAAOuHXCG_vBuIe7vG4X', '_blank')}
+                onClick={() => window.open('https://drive.google.com/uc?export=download&id=1R7w66xBzH_ewoGBWFmrk_bSPk39jj6Sw', '_blank')}
                 className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 transform hover:scale-105 flex items-center shadow-md"
               >
                 <FileDown className="w-5 h-5 mr-2" />
