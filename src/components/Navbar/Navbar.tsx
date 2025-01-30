@@ -31,7 +31,6 @@ export const Navbar = () => {
 
   return (
     <>
-      {/* Bouton du menu */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="fixed left-4 top-4 z-50 bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
@@ -44,7 +43,6 @@ export const Navbar = () => {
         )}
       </button>
 
-      {/* Overlay sombre quand le menu est ouvert */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40"
@@ -52,7 +50,6 @@ export const Navbar = () => {
         />
       )}
 
-      {/* Menu latéral */}
       <nav
         className={`fixed left-0 top-0 h-full w-64 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : '-translate-x-full'

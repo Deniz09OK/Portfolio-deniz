@@ -10,27 +10,23 @@ export const Languages = () => {
           Langues
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-            <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center">
-              <Globe className="w-5 h-5 mr-2 text-red-600" />
-              Français
-            </h3>
-            <p className="text-gray-600">Langue maternelle</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-            <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center">
-              <Globe className="w-5 h-5 mr-2 text-red-600" />
-              Turc
-            </h3>
-            <p className="text-gray-600">Langue maternelle</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-            <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center">
-              <Globe className="w-5 h-5 mr-2 text-red-600" />
-              Anglais
-            </h3>
-            <p className="text-gray-600">TOEIC 790/990</p>
-          </div>
+          {[
+            { name: 'Français', level: 'Langue maternelle' },
+            { name: 'Turc', level: 'Langue maternelle' },
+            { name: 'Anglais', level: 'TOEIC 790/990' }
+          ].map((language, index) => (
+            <div 
+              key={language.name}
+              className="language-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              style={{ animationDelay: `${index * 0.2}s` }}
+            >
+              <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <Globe className="w-5 h-5 mr-2 text-red-600" />
+                {language.name}
+              </h3>
+              <p className="text-gray-600">{language.level}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
