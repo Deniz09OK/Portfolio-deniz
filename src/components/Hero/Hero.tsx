@@ -1,4 +1,3 @@
-import React from 'react';
 import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
