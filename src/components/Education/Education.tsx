@@ -12,7 +12,7 @@ export const Education = () => {
         <div className="space-y-8">
           <div className="education-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Programme MSc Pro (En Cours)</h3>
-            <p className="text-gray-600 mb-2">Epitech Nancy | 09/2024-07/2027</p>
+            <p className="text-gray-600 mb-2">Epitech Nancy | 09/2024-09/2027</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Pédagogie active</li>
               <li>Virtualisation (Debian, OpenBSD, FreeBSD)</li>

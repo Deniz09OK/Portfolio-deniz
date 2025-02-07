@@ -1,3 +1,4 @@
+import React from 'react';
 import { Monitor, Mail, Scroll, BookOpen, MapPin, FileDown, Github, Linkedin } from 'lucide-react';
 
 export const Hero = () => {
@@ -42,7 +43,7 @@ export const Hero = () => {
               À propos
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Étudiant à Epitech, je recherche une alternance en développement informatique à partir de janvier 2025 pour 30 mois. Passionné par les technologies, je souhaite renforcer mes compétences en développement logiciel, programmation et gestion de projets dans un cadre innovant et dynamique.
+              Étudiant à Epitech en alternance chez Qualitest en tant que Développeur Full Stack depuis février 2025. Passionné par les technologies, je développe mes compétences en développement logiciel, programmation et gestion de projets dans un environnement innovant et dynamique.
             </p>
             <div className="flex items-center text-gray-700">
               <MapPin className="w-5 h-5 mr-2 text-red-600" />
