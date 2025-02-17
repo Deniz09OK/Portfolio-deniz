@@ -12,7 +12,7 @@ export const Experience = () => {
         <div className="space-y-8">
           <div className="experience-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Développeur Full Stack</h3>
-            <p className="text-gray-600 mb-2">Qualitest, Nancy | 02/2025-09/2027</p>
+            <p className="text-gray-600 mb-2">Qualitest, Nancy · Contrat en alternance | 02/2025-09/2027</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Développement d'un site web complet (front-end et back-end)</li>
               <li>Administration et gestion de base de données</li>
@@ -23,8 +23,7 @@ export const Experience = () => {
             <h3 className="text-xl font-bold text-gray-800 mb-2">Equipier polyvalent</h3>
             <p className="text-gray-600 mb-2">Burger King, Vandoeuvre-lès-Nancy | 01/2024-03/2024</p>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>Service à table et au drive</li>
-              <li> Entretien du restaurant</li>
+              <li>Service à table et au drive - Entretien du restaurant</li>
               <li>Service client : Accueil chaleureux, prise de commande rapide et précise</li>
             </ul>
           </div>

@@ -29,12 +29,11 @@ export const Portfolio = () => {
               <div className="mb-4">
                 {project.media.type === 'video' ? (
                   <video 
-                    src={project.media.src}
                     className="w-full h-48 object-cover rounded-lg mb-4 border border-gray-200"
                     controls
-                    muted
-                    loop
+                    preload="metadata"
                   >
+                    <source src={project.media.src} type="video/mp4" />
                     Votre navigateur ne supporte pas la lecture de vidéos.
                   </video>
                 ) : (
